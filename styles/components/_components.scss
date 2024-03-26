@@ -1,0 +1,62 @@
+.window {
+  background-clip: text;
+  color: transparent;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+}
+
+.dec--box {
+  height: 240px;
+  width: 240px;
+  background-color: $secondary;
+}
+
+.outline {
+  outline: 1px solid #000;
+}
+
+.bg--gradient--180 {
+  // linear-gradient(方向,顏色)
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+
+.bg--gradient--90 {
+  background-image: linear-gradient(115deg, #7bf 50%, transparent 50%),
+    url(https://images.unsplash.com/photo-1587303988571-c5563c0bceab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.bg--gradient--115 {
+  background-image: linear-gradient(115deg, red 10%, transparent 20%, blue 30%, transparent 40%),
+    url(https://images.unsplash.com/photo-1710185267709-222fee125b94?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.bg--gradient--test {
+  background-image: url(https://images.unsplash.com/photo-1568205612837-017257d2310a?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D),
+    url(https://plus.unsplash.com/premium_photo-1683309560255-af9b1c29d42e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D),
+    url(https://images.unsplash.com/photo-1625225230517-7426c1be750c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-position:
+    left top,
+    right bottom,
+    center center;
+  background-size: 70%;
+}
+
+.text--transparent {
+  color: transparent;
+}
+
+.font--size--vw{
+  font-size: 15vw;
+}
+// .background-clip--text {
+//   color: transparent;
+//   background-clip: text;
+//   background-image: url(https://images.unsplash.com/photo-1710183758420-707ed8801b01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  
+// }
